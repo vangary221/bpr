@@ -244,6 +244,7 @@ if __name__ == '__main__':
     from scipy.io import mmread
 
     data = mmread(sys.argv[1]).tocsr()
+    # is there any requirements for this line?
 
     args = BPRArgs()
     args.learning_rate = 0.3
